@@ -16,6 +16,8 @@
 		AD26B7B4278761EB00BB7E30 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7B3278761EB00BB7E30 /* Board.swift */; };
 		AD26B7B7278896E900BB7E30 /* Board+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7B6278896E900BB7E30 /* Board+Stub.swift */; };
 		AD26B7BA2788998E00BB7E30 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7B92788998E00BB7E30 /* BoardView.swift */; };
+		AD26B7BC27889DC300BB7E30 /* BoardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7BB27889DC300BB7E30 /* BoardListView.swift */; };
+		AD26B7BE2788C5C900BB7E30 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7BD2788C5C900BB7E30 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		AD26B7B52788968600BB7E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AD26B7B6278896E900BB7E30 /* Board+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Board+Stub.swift"; sourceTree = "<group>"; };
 		AD26B7B92788998E00BB7E30 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BoardView.swift; path = ../../../../../../BoardView.swift; sourceTree = "<group>"; };
+		AD26B7BB27889DC300BB7E30 /* BoardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListView.swift; sourceTree = "<group>"; };
+		AD26B7BD2788C5C900BB7E30 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				AD26B7B92788998E00BB7E30 /* BoardView.swift */,
+				AD26B7BB27889DC300BB7E30 /* BoardListView.swift */,
+				AD26B7BD2788C5C900BB7E30 /* CardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,10 +177,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD26B7BA2788998E00BB7E30 /* BoardView.swift in Sources */,
+				AD26B7BE2788C5C900BB7E30 /* CardView.swift in Sources */,
 				AD26B7B7278896E900BB7E30 /* Board+Stub.swift in Sources */,
 				AD26B7A327875FEE00BB7E30 /* ContentView.swift in Sources */,
 				AD26B7B02787605700BB7E30 /* Card.swift in Sources */,
 				AD26B7B4278761EB00BB7E30 /* Board.swift in Sources */,
+				AD26B7BC27889DC300BB7E30 /* BoardListView.swift in Sources */,
 				AD26B7B22787615100BB7E30 /* BoardList.swift in Sources */,
 				AD26B7A127875FEE00BB7E30 /* TrelloCloneApp.swift in Sources */,
 			);
