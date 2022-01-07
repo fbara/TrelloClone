@@ -11,6 +11,9 @@
 		AD26B7A327875FEE00BB7E30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7A227875FEE00BB7E30 /* ContentView.swift */; };
 		AD26B7A527875FEF00BB7E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD26B7A427875FEF00BB7E30 /* Assets.xcassets */; };
 		AD26B7A827875FEF00BB7E30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD26B7A727875FEF00BB7E30 /* Preview Assets.xcassets */; };
+		AD26B7B02787605700BB7E30 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7AF2787605700BB7E30 /* Card.swift */; };
+		AD26B7B22787615100BB7E30 /* BoardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7B12787615100BB7E30 /* BoardList.swift */; };
+		AD26B7B4278761EB00BB7E30 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7B3278761EB00BB7E30 /* Board.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		AD26B7A227875FEE00BB7E30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD26B7A427875FEF00BB7E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD26B7A727875FEF00BB7E30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD26B7AF2787605700BB7E30 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		AD26B7B12787615100BB7E30 /* BoardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardList.swift; sourceTree = "<group>"; };
+		AD26B7B3278761EB00BB7E30 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 		AD26B79F27875FEE00BB7E30 /* TrelloClone */ = {
 			isa = PBXGroup;
 			children = (
+				AD26B7AE2787603F00BB7E30 /* Models */,
 				AD26B7A027875FEE00BB7E30 /* TrelloCloneApp.swift */,
 				AD26B7A227875FEE00BB7E30 /* ContentView.swift */,
 				AD26B7A427875FEF00BB7E30 /* Assets.xcassets */,
@@ -65,6 +72,16 @@
 				AD26B7A727875FEF00BB7E30 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD26B7AE2787603F00BB7E30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD26B7AF2787605700BB7E30 /* Card.swift */,
+				AD26B7B12787615100BB7E30 /* BoardList.swift */,
+				AD26B7B3278761EB00BB7E30 /* Board.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD26B7A327875FEE00BB7E30 /* ContentView.swift in Sources */,
+				AD26B7B02787605700BB7E30 /* Card.swift in Sources */,
+				AD26B7B4278761EB00BB7E30 /* Board.swift in Sources */,
+				AD26B7B22787615100BB7E30 /* BoardList.swift in Sources */,
 				AD26B7A127875FEE00BB7E30 /* TrelloCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
