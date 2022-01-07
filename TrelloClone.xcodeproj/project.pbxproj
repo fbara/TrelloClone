@@ -19,6 +19,7 @@
 		AD26B7BC27889DC300BB7E30 /* BoardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7BB27889DC300BB7E30 /* BoardListView.swift */; };
 		AD26B7BE2788C5C900BB7E30 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7BD2788C5C900BB7E30 /* CardView.swift */; };
 		AD26B7C12788C80D00BB7E30 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = AD26B7C02788C80D00BB7E30 /* Introspect */; };
+		AD26B7C32788D83300BB7E30 /* View+AlertTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7C22788D83300BB7E30 /* View+AlertTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		AD26B7B92788998E00BB7E30 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BoardView.swift; path = ../../../../../../BoardView.swift; sourceTree = "<group>"; };
 		AD26B7BB27889DC300BB7E30 /* BoardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListView.swift; sourceTree = "<group>"; };
 		AD26B7BD2788C5C900BB7E30 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		AD26B7C22788D83300BB7E30 /* View+AlertTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+AlertTextField.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				AD26B7B92788998E00BB7E30 /* BoardView.swift */,
 				AD26B7BB27889DC300BB7E30 /* BoardListView.swift */,
 				AD26B7BD2788C5C900BB7E30 /* CardView.swift */,
+				AD26B7C22788D83300BB7E30 /* View+AlertTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				AD26B7BA2788998E00BB7E30 /* BoardView.swift in Sources */,
 				AD26B7BE2788C5C900BB7E30 /* CardView.swift in Sources */,
 				AD26B7B7278896E900BB7E30 /* Board+Stub.swift in Sources */,
+				AD26B7C32788D83300BB7E30 /* View+AlertTextField.swift in Sources */,
 				AD26B7A327875FEE00BB7E30 /* ContentView.swift in Sources */,
 				AD26B7B02787605700BB7E30 /* Card.swift in Sources */,
 				AD26B7B4278761EB00BB7E30 /* Board.swift in Sources */,

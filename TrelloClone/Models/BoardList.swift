@@ -45,6 +45,23 @@ class BoardList: NSObject, ObservableObject, Identifiable, Codable {
         try container.encode(cards, forKey: .cards)
     }
     
+    func cardIndex(id: UUID) -> Int? {
+        cards.firstIndex { $0.id == id }
+    }
+    
+    func addNewCardWithContent(_ content: String) {
+        cards.append(Card(content: content, boardListId: id))
+    }
+    
+    func removeCard(_ card: Card) {
+        guard let cardIndex = cardIndex(id: card.id) else { return }
+        cards.remove(at: cardIndex)
+    }
+    
+    func moveCards(fromOffsets fromOffset: IndexSet, toOffset moveToOffset: Int) {
+        cards.move(fromOffsets: fromOffset, toOffset: moveToOffset)
+    }
+    
 }
 
 extension BoardList: NSItemProviderWriting {
