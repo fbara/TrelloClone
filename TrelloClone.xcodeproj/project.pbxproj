@@ -14,6 +14,8 @@
 		AD26B7B02787605700BB7E30 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7AF2787605700BB7E30 /* Card.swift */; };
 		AD26B7B22787615100BB7E30 /* BoardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7B12787615100BB7E30 /* BoardList.swift */; };
 		AD26B7B4278761EB00BB7E30 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7B3278761EB00BB7E30 /* Board.swift */; };
+		AD26B7B7278896E900BB7E30 /* Board+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7B6278896E900BB7E30 /* Board+Stub.swift */; };
+		AD26B7BA2788998E00BB7E30 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7B92788998E00BB7E30 /* BoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,9 @@
 		AD26B7AF2787605700BB7E30 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		AD26B7B12787615100BB7E30 /* BoardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardList.swift; sourceTree = "<group>"; };
 		AD26B7B3278761EB00BB7E30 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		AD26B7B52788968600BB7E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AD26B7B6278896E900BB7E30 /* Board+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Board+Stub.swift"; sourceTree = "<group>"; };
+		AD26B7B92788998E00BB7E30 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BoardView.swift; path = ../../../../../../BoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +62,11 @@
 		AD26B79F27875FEE00BB7E30 /* TrelloClone */ = {
 			isa = PBXGroup;
 			children = (
+				AD26B7B52788968600BB7E30 /* Info.plist */,
 				AD26B7AE2787603F00BB7E30 /* Models */,
 				AD26B7A027875FEE00BB7E30 /* TrelloCloneApp.swift */,
 				AD26B7A227875FEE00BB7E30 /* ContentView.swift */,
+				AD26B7B82788993900BB7E30 /* Views */,
 				AD26B7A427875FEF00BB7E30 /* Assets.xcassets */,
 				AD26B7A627875FEF00BB7E30 /* Preview Content */,
 			);
@@ -80,8 +87,17 @@
 				AD26B7AF2787605700BB7E30 /* Card.swift */,
 				AD26B7B12787615100BB7E30 /* BoardList.swift */,
 				AD26B7B3278761EB00BB7E30 /* Board.swift */,
+				AD26B7B6278896E900BB7E30 /* Board+Stub.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		AD26B7B82788993900BB7E30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD26B7B92788998E00BB7E30 /* BoardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +170,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD26B7BA2788998E00BB7E30 /* BoardView.swift in Sources */,
+				AD26B7B7278896E900BB7E30 /* Board+Stub.swift in Sources */,
 				AD26B7A327875FEE00BB7E30 /* ContentView.swift in Sources */,
 				AD26B7B02787605700BB7E30 /* Card.swift in Sources */,
 				AD26B7B4278761EB00BB7E30 /* Board.swift in Sources */,
@@ -292,6 +310,7 @@
 				DEVELOPMENT_TEAM = CF655ESNGC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrelloClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -321,6 +340,7 @@
 				DEVELOPMENT_TEAM = CF655ESNGC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrelloClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
