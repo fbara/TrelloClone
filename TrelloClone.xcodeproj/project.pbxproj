@@ -18,6 +18,7 @@
 		AD26B7BA2788998E00BB7E30 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7B92788998E00BB7E30 /* BoardView.swift */; };
 		AD26B7BC27889DC300BB7E30 /* BoardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7BB27889DC300BB7E30 /* BoardListView.swift */; };
 		AD26B7BE2788C5C900BB7E30 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7BD2788C5C900BB7E30 /* CardView.swift */; };
+		AD26B7C12788C80D00BB7E30 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = AD26B7C02788C80D00BB7E30 /* Introspect */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD26B7C12788C80D00BB7E30 /* Introspect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +124,9 @@
 			dependencies = (
 			);
 			name = TrelloClone;
+			packageProductDependencies = (
+				AD26B7C02788C80D00BB7E30 /* Introspect */,
+			);
 			productName = TrelloClone;
 			productReference = AD26B79D27875FEE00BB7E30 /* TrelloClone.app */;
 			productType = "com.apple.product-type.application";
@@ -150,6 +155,9 @@
 				Base,
 			);
 			mainGroup = AD26B79427875FEE00BB7E30;
+			packageReferences = (
+				AD26B7BF2788C80D00BB7E30 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+			);
 			productRefGroup = AD26B79E27875FEE00BB7E30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -389,6 +397,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD26B7BF2788C80D00BB7E30 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD26B7C02788C80D00BB7E30 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD26B7BF2788C80D00BB7E30 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AD26B79527875FEE00BB7E30 /* Project object */;
 }
