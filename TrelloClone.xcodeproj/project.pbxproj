@@ -21,6 +21,7 @@
 		AD26B7C12788C80D00BB7E30 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = AD26B7C02788C80D00BB7E30 /* Introspect */; };
 		AD26B7C32788D83300BB7E30 /* View+AlertTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7C22788D83300BB7E30 /* View+AlertTextField.swift */; };
 		AD26B7C52788E18600BB7E30 /* BoardDropDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7C42788E18600BB7E30 /* BoardDropDelegate.swift */; };
+		AD26B7C72795FD2600BB7E30 /* BoardDiskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B7C62795FD2600BB7E30 /* BoardDiskRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		AD26B7BD2788C5C900BB7E30 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		AD26B7C22788D83300BB7E30 /* View+AlertTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+AlertTextField.swift"; sourceTree = "<group>"; };
 		AD26B7C42788E18600BB7E30 /* BoardDropDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardDropDelegate.swift; sourceTree = "<group>"; };
+		AD26B7C62795FD2600BB7E30 /* BoardDiskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardDiskRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				AD26B7B3278761EB00BB7E30 /* Board.swift */,
 				AD26B7B6278896E900BB7E30 /* Board+Stub.swift */,
 				AD26B7C42788E18600BB7E30 /* BoardDropDelegate.swift */,
+				AD26B7C62795FD2600BB7E30 /* BoardDiskRepository.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				AD26B7BA2788998E00BB7E30 /* BoardView.swift in Sources */,
 				AD26B7BE2788C5C900BB7E30 /* CardView.swift in Sources */,
 				AD26B7B7278896E900BB7E30 /* Board+Stub.swift in Sources */,
+				AD26B7C72795FD2600BB7E30 /* BoardDiskRepository.swift in Sources */,
 				AD26B7C32788D83300BB7E30 /* View+AlertTextField.swift in Sources */,
 				AD26B7A327875FEE00BB7E30 /* ContentView.swift in Sources */,
 				AD26B7B02787605700BB7E30 /* Card.swift in Sources */,
